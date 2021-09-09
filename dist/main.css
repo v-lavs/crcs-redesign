@@ -2698,9 +2698,11 @@ body.modal-open {
 .flavoring-slide__thumb {
   position: absolute;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100%;
   width: 100vw;
-  max-width: 650px;
+  max-width: 42vw;
   top: 0;
   bottom: 0;
   left: 0;
@@ -2834,7 +2836,7 @@ body.modal-open {
 
 .section-distinguish__img {
   height: 100%;
-  width: auto;
+  width: 100%;
   -o-object-fit: cover;
   object-fit: cover
 }
@@ -3464,6 +3466,9 @@ body.modal-open {
   .widget-share {
     -webkit-transform: translate(-40px, -109px);
     transform: translate(-40px, -109px)
+  }
+  .section-distinguish__img {
+    width: auto;
   }
 
   .flavoring .section-banner__slogan {
