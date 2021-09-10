@@ -4072,8 +4072,8 @@ body.modal-open {
     top: 155px;
     border-radius: 3px;
   }
-  .widget-share__item {
-    margin-bottom: 20px;
+  .widget-share__item:last-child {
+    margin-bottom: 17px;
   }
   .single-article .title{
     width: 85%;
@@ -4207,11 +4207,5 @@ body.modal-open {
 
   .single-article .wrap-post-thumb {
     padding-top: 75%
-  }
-}
-
-@media all and (max-width: 360px) {
-  .widget-share {
-    top: 240px
   }
 }
