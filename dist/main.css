@@ -4063,9 +4063,22 @@ body.modal-open {
 
   .slider-flavoring .part_right,
   .widget-share {
-    display: none
+    /*display: none*/
+    position: fixed;
+    transform: none;
+    left: 0;
+    background: #ffffff;
+    height: auto;
+    top: 155px;
+    border-radius: 3px;
   }
-
+  .widget-share__item {
+    margin-bottom: 20px;
+  }
+  .single-article .title{
+    width: 85%;
+    margin: 0 auto 35px;
+  }
   .page-bulbs .section-banner {
     margin-bottom: 65px
   }
