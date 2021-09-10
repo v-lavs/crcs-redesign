@@ -3149,6 +3149,10 @@ body.modal-open {
   margin-bottom: 12px
 }
 
+.section-related-post{
+  overflow: hidden;
+}
+
 .section-related-post .section__header {
   padding-bottom: 20px;
   border-bottom: 1px solid #C8C8C8;
