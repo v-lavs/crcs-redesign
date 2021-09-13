@@ -2491,7 +2491,7 @@ body.modal-open {
 }
 
 .properties__bg-icon,
- .flavoring-slide__thumb{
+.flavoring-slide__thumb {
   background-repeat: no-repeat;
   background-position: center
 }
@@ -2504,7 +2504,7 @@ body.modal-open {
   transform: translateX(-40%)
 }
 
- .tr-right {
+.tr-right {
   display: block;
   -webkit-transform: translateX(45%);
   transform: translateX(45%)
@@ -2724,11 +2724,11 @@ body.modal-open {
   z-index: -1
 }
 
- .flavoring-slide {
+.flavoring-slide {
   background-color: #14213D;
   color: #fff;
   overflow: hidden;
-   height: auto;
+  height: auto;
 }
 
 .flavoring-slide__heading {
@@ -2768,7 +2768,7 @@ body.modal-open {
   z-index: 1
 }
 
- .flavoring-slide .simplebar-track.simplebar-vertical {
+.flavoring-slide .simplebar-track.simplebar-vertical {
   width: 1px;
   -webkit-box-shadow: inset 0 0 2px rgba(255, 255, 255, .2);
   box-shadow: inset 0 0 2px rgba(255, 255, 255, .2)
@@ -3114,7 +3114,7 @@ body.modal-open {
   z-index: 1
 }
 
- .dynamic-content-sng {
+.dynamic-content-sng {
   position: relative
 }
 
@@ -3208,7 +3208,7 @@ body.modal-open {
   margin-bottom: 12px
 }
 
-.section-related-post{
+.section-related-post {
   overflow: hidden;
 }
 
@@ -3530,6 +3530,7 @@ body.modal-open {
     -webkit-transform: translate(-40px, -109px);
     transform: translate(-40px, -109px)
   }
+
   .section-distinguish__img {
     width: auto;
   }
@@ -3785,6 +3786,10 @@ body.modal-open {
 
   .swiper-button-next, .swiper-button-prev {
     top: 34px
+  }
+
+  .flavoring-slide__thumb {
+    max-width: 45vw;
   }
 
   .flavoring-slide__heading.line-decor {
@@ -4158,9 +4163,11 @@ body.modal-open {
     margin-right: 5px
   }
 
-  .slider-flavoring .part_right,
+  .slider-flavoring .part_right{
+    display: none;
+  }
   .widget-share {
-    /*display: none*/
+
     position: fixed;
     transform: none;
     left: 0;
@@ -4169,13 +4176,16 @@ body.modal-open {
     top: 155px;
     border-radius: 3px;
   }
+
   .widget-share__item .print {
     padding-top: 0;
   }
-  .single-article .title{
+
+  .single-article .title {
     width: 85%;
     margin: 0 auto 35px;
   }
+
   .page-bulbs .section-banner {
     margin-bottom: 65px
   }
@@ -4241,9 +4251,11 @@ body.modal-open {
   .slider-flavoring .simplebar-content {
     padding-right: 20px !important
   }
+
   .slider-flavoring__navigation .wrap-btn:before {
     right: -20px;
   }
+
   .slider-flavoring .part_left {
     width: 100%;
     padding: 50px 20px 60px 40px
