@@ -2491,7 +2491,7 @@ body.modal-open {
 }
 
 .properties__bg-icon,
-.slider-flavoring .slide__thumb {
+ .flavoring-slide__thumb{
   background-repeat: no-repeat;
   background-position: center
 }
